@@ -38,7 +38,7 @@ The model was trained on the [Scam Detection | Fake News Labelled Dataset from K
    - Click **Runtime** → **Run all**  
    - The notebook will:
      - Load and preprocess the dataset
-     - Train a new model (to show accuracy)
+     - **Retrain the model** (to show accuracy scores)
      - **Then run the prediction cell** at the bottom
 
 6. **Test your own news**  
