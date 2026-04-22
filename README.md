@@ -1,14 +1,21 @@
 # Fake News Detection Model
 
-This model can tell if a news article is real or fake.  
-It was trained on 20,800 news articles and gets **98% accuracy**.
+This model can predict if a news article is real or fake.  
+It uses Logistic Regression and TF-IDF features.
+
+## Accuracy
+- Training: 98.6%
+- Test: 97.9%
+
+## Files in this repository
+- `fake_news_model.pkl` – the trained model
+- `tfidf_vectorizer.pkl` – text converter
+- `Project1-FakeNewsPrediction.ipynb` – the original notebook
+
+## Dataset
+The model was trained on the [Fake News dataset from Kaggle](https://www.kaggle.com/datasets/noorsaeed/scam-detection-fake-news-labelled-dataset)
 
 ## How to use
-1. Download the files: `fake_news_model.pkl` and `tfidf_vectorizer.pkl`
-2. Use the notebook to see how the model works.
-3. Or run the prediction script (if you add one).
-
-## Files
-- `fake_news_detector.ipynb` – the original notebook
-- `fake_news_model.pkl` – the trained model
-- `tfidf_vectorizer.pkl` – the text converter
+1. Download the `.pkl` files
+2. Open the notebook in Google Colab
+3. Run the prediction cells
